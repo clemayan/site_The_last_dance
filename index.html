@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Site sur la série The Last Dance Maya MAZUET A23">
+  <meta name="author" lang="fr" content="Maya MAZUET">
+  <meta name="Description"
+    content="Ce site est un site vitrine sur la série The Last Dance. Il a été produit dans le cadre de l'UE MM01 de l'Université de Technologie de Troyes par Maya MAZUET en A23.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Last Dance</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/x-icon" href="images/chicago-bulls2.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!--Loader-->
+  <div id="loader-container">
+    <img id="loader" src="images/loader.gif" alt="Chargement...">
+    <p>Chargement ...</p>
+  </div>
+  <!--Navigation-->
+  <header>
+    <div id="navbar">
+      <div class="accueil">
+        <a href="index.html" title="vers la page des équipes">
+          <p>Accueil</p>
+          <i class="fa-solid fa-house fa-2x"></i>
+        </a>
+      </div>
+
+      <div class="pages">
+        <a href="pages/personnages.html" title="vers la page des équipes">Personnages</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Biographie</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+            <a href="pages/timeline.html">Timeline</a>
+          </div>
+        </div>
+
+        <a href="pages/media.html" title="vers la page des photos">Médias</a>
+        <a href="pages/bande_annonce.html" title="vers la bande annonce" style="background-color: black;"><img
+            src="images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+            style="right: 45%;top:0"></a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Récompenses</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/critiques.html" title="vers la page des critiques de la série">Critiques</a>
+            <a href="pages/prix.html" title="vers la page des prix">Prix</a>
+          </div>
+        </div>
+
+        <a href="pages/quiz.html" title="vers la page de quiz">Quiz</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Ressources</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/contact.html" title="vers la page formulaire">Contact</a>
+            <a href="pages/credits.html" title="vers la page des crédits">Crédits</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Navigation responsive format mobile -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="pagesresp">
+        <a href="index.html" title="vers la page des équipes" class="active accueil">Accueil</a>
+        <a href="pages/personnages.html" title="vers la page des équipes">Personnages</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Biographie →</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+            <a href="pages/timeline.html">Timeline</a>
+          </div>
+        </div>
+        <a href="pages/media.html" title="vers la page des photos">Médias</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Récompenses →</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/critiques.html" title="vers la page des critiques de la série">Critiques</a>
+            <a href="pages/prix.html" title="vers la page des prix">Prix</a>
+          </div>
+        </div>
+        <a href="pages/quiz.html" title="vers la page de quiz">Quiz</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Ressources →</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/contact.html" title="vers la page formulaire">Contact</a>
+            <a href="pages/credits.html" title="vers la page des crédits">Crédits</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menuresp">
+      <a href="pages/bande_annonce.html" title="vers la bande annonce" style="background-color: rgb(193,47,63,0);"><img
+          src="images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce" width="5%"></a>
+      <span class="burger" onclick="openNav()">&#9776;</span>
+    </div>
+    <!-- Fin Navigation responsive format mobile -->
+
+
+  </header>
+
+  <main>
+    <div id="contenu">
+      <h1>THE LAST DANCE</h1>
+      <!-- Description de la série -->
+
+      <div class="neumorphism">Un docu-série <strong> magistral</strong> qui propose des images inédites de sa dernière
+        saison au sein du
+        championnat NBA, <strong>Michael Jordan se livre sur sa vie et sa carrière</strong>.
+      </div>
+      <!--fin de la descritpion -->
+
+      <img src="images/accueil/affiche.jpg" alt="the last dance" title="affiche de la série The last dance" width="100%"
+        style="margin: auto; border-radius: 15px ;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+      <div class="fleche">
+        <strong>Pour voir la série : </strong>
+        <br>
+        <br>
+        <img src="images/accueil/fleche.png" alt="fleche" title="fleche" class="fleche">
+
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <a href="https://www.netflix.com/fr/title/80203144" target="_blank" title="voir la série sur netflix"><img
+                  src="images/accueil/logo_netflix.png" alt="logo netflix" title="logo netflix" class="netflix"
+                  width="10%"></a>
+            </div>
+            <div class="flip-box-back">
+              <a href="https://www.netflix.com/fr/title/80203144" target="_blank" title="voir la série sur netflix"><img
+                  src="images/accueil/logo_netflix.png" alt="logo netflix" title="logo netflix" class="netflix"
+                  width="10%"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+        <a href="https://www.allocine.fr/series/ficheserie_gen_cserie=23639.html" target="_blank"
+          title="en savoir plus sur la série"><strong>The last dance</strong></a> est une série documentaire de <a
+          href="https://www.allocine.fr/personne/fichepersonne_gen_cpersonne=728583.html" target="_blank">Jason
+          Hehir</a> sortie en 2020.
+        La série retrace le parcours de la légende du basket Michael Jordan, <strong>depuis ses premiers jours de la NBA
+          jusqu'aux
+          jours où il est devenu une icône culturelle mondiale</strong>. Un aperçu des saisons les plus réussies et
+        inoubliables
+        dans
+        les années <strong>1990</strong> qu'il a eues en tant que joueur des célèbres Chicago Bulls jusqu'à sa dernière
+        saison au sein du
+        championnat NBA.
+      </p>
+
+
+
+      </p>
+      <div class="liens-index">
+        <div class="direction gauche">
+          <a href="pages/personnages.html" title="vers la page des joueurs">
+            <h2> Découvrir les joueurs <i class="fa-solid fa-arrow-right"></i></h2>
+        </div></a>
+        <div class="boite">
+          <img src="images/accueil/personnages.jpg" alt="photo de l'équipe" title="photo de l'équipe">
+        </div>
+      </div>
+
+      <div class="liens-index">
+        <div class="boite">
+          <img src="images/accueil/biographie.jpg" alt="Michael Jordan entouré de paparazzis"
+            title="Michael Jordan entouré de paparazzis">
+        </div>
+        <div class="direction">
+          <a href="pages/celebrite.html" title="vers la page de la célébrité de MJ">
+            <h2><i class="fa-solid fa-arrow-left"></i> La célébrité de Michael Jordan </h2>
+          </a>
+          <a href="pages/timeline.html" title="vers la pages de la frise chronlogique de MJ">
+            <h2><i class="fa-solid fa-arrow-left"></i> L'histoire de Michael Jordan </h2>
+          </a>
+        </div>
+      </div>
+
+      <div class="liens-index">
+        <div class="direction gauche archive">
+          <a href="pages/media.html" title="vers la page des photos">
+            <h2> Photos d'archives <i class="fa-solid fa-arrow-right"></i></h2>
+          </a>
+        </div>
+        <div class="boite">
+          <img src="images/accueil/media.jpg" alt="MJ avec un ballon de basket" title="MJ avec un ballon de basket">
+        </div>
+      </div>
+
+
+      <div class="liens-index">
+        <div class="boite">
+          <img src="images/accueil/recompenses.jpg" alt="affiche the last dance" title="affiche the last dance">
+        </div>
+        <div class="direction archive">
+          <a href="pages/critiques.html" title="vers la page des critiques du film">
+            <h2><i class="fa-solid fa-arrow-left"></i> Découvir les critiques du film </h2>
+          </a>
+          <a href="pages/prix.html" title="vers la page des prix ontenus">
+            <h2><i class="fa-solid fa-arrow-left"></i> Les prix obtenus par le film </h2>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="liens-index">
+        <div class="direction">
+          <a href="pages/quiz.html" title="vers la page de quiz">
+            <h2 style="margin: 5px 0;"><i class="fa-solid fa-angles-right"></i></i> Êtes-vous un pro ? Testez-vous </h2>
+          </a>
+          <a href="pages/credits.html" title="ver sla page des crédits">
+            <h2 style="margin: 5px 0;"><i class="fa-solid fa-angles-right"></i> Sources</i></h2>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+    <img src="images/play.png" id="icon-ac">
+    <audio id="mySong-ac">
+      <source src="sons/chicago-bulls-theme.mp3" type="audio/mp3">
+    </audio>
+
+
+    <!--Footer-->
+
+  </main><span class="bloc-audio"></span>
+  <footer>
+    <p style="float:left;">Copyright© <sec> All Rights Reserved To</sec> <a href="mailto:maya.mazuet@utt.fr">Maya
+        Mazuet</a></p>
+    <span class="liens"><a title="Vers la page contact" href="pages/contact.html">Contact</a> - <a
+        title="Vers la page crédits" href="pages/credits.html">Crédits</a></span>
+  </footer>
+  <!--Fin Footer-->
+
+
+</body>
+<script src="style/TDL2.js">
+</script>
+<script>
+
+  /*bouton play musique de fond accueil */
+  var mySongac = document.getElementById("mySong-ac")
+  var iconac = document.getElementById("icon-ac")
+
+  iconac.onclick = function () {
+    if (mySongac.paused) {
+      mySongac.play();
+      iconac.src = "images/pause.png"
+    } else {
+      mySongac.pause();
+      iconac.src = "images/play.png"
+    }
+
+  }
+</script>
+<script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+
+</html>

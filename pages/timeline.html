@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Site sur la série The Last Dance Maya MAZUET A23">
+  <meta name="author" lang="fr" content="Maya MAZUET">
+  <meta name="Description"
+    content="Ce site est un site vitrine sur la série The Last Dance. Il a été produit dans le cadre de l'UE MM01 de l'Université de Technologie de Troyes par Maya MAZUET en A23.">
+  <title>The Last Dance</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/timeline-quiz.css">
+  <link rel="icon" type="image/x-icon" href="../images/chicago-bulls2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--Loader-->
+  <div id="loader-container">
+    <img id="loader" src="../images/loader.gif" alt="Chargement...">
+    <p>Chargement ...</p>
+  </div>
+  <!--Navigation-->
+  <header>
+    <div id="navbar">
+      <div class="accueil">
+        <a href="../index.html" title="vers la page des équipes">
+          <p>Accueil</p>
+          <i class="fa-solid fa-house fa-2x"></i>
+        </a>
+      </div>
+
+      <div class="pages">
+        <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Biographie</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+            <a href="timeline.html">Timeline</a>
+          </div>
+        </div>
+
+        <a href="media.html" title="vers la page des photos">Médias</a>
+        <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: black;"><img
+            src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+            style="right: 45%;top:0; width: 15.5%"></a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Récompenses</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+            <a href="prix.html" title="vers la page des prix">Prix</a>
+          </div>
+        </div>
+
+        <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Ressources</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="contact.html" title="vers la page formulaire">Contact</a>
+            <a href="credits.html" title="vers la page des crédits">Crédits</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Navigation responsive format mobile -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="pagesresp">
+        <a href="../index.html" title="vers la page des équipes" class="active accueil">Accueil</a>
+        <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Biographie →</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+            <a href="timeline.html">Timeline</a>
+          </div>
+        </div>
+        <a href="media.html" title="vers la page des photos">Médias</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Récompenses →</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+            <a href="prix.html" title="vers la page des prix">Prix</a>
+          </div>
+        </div>
+        <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <p>Ressources →</p>
+          </button>
+          <div class="dropdown-content">
+            <a href="contact.html" title="vers la page formulaire">Contact</a>
+            <a href="credits.html" title="vers la page des crédits">Crédits</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menuresp">
+      <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: rgb(193,47,63,0);"><img
+          src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce" width="5%"></a>
+      <span class="burger" onclick="openNav()">&#9776;</span>
+    </div>
+    <!-- Fin Navigation responsive format mobile -->
+  </header>
+
+  <main>
+    <div id="contenu">
+      <div class="background-image">
+        <div class="header">
+          <div class="image">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sommaire">
+        <a href="#1963">1963</a><a href="#1982">1982</a><a href="#1984">1984</a><a href="#1991">1991</a><a
+          href="#1992">1992</a><a href="#1993">1993</a><a href="#19932">1993</a><a href="#1994">1994</a><a
+          href="#1995">1995</a><a href="#1999">1999</a><a href="#2001">2001</a><a href="#2002">2002</a><a
+          href="#2003">2003</a><a href="#2023">2006-</a>
+      </div>
+
+      <div class="commentaire">
+        Cliquer sur les zones pour voir des images !
+      </div>
+
+      <a href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank"></a>
+
+
+      <div id="1963" class="timeline">
+        <div class="container left">
+          <div id="1982" class="date">1963</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Enfance</h2>
+            <p>
+              Cette frise chronologique commence en 1963, lorsque Michael Jordan naît le 17 février à Brooklyn, dans
+              l'État de New York. Fils de James R. Jordan, Sr. et de Delores Jordan, la famille décide rapidement de
+              déménager à Wilmington, en Caroline du Nord. Il est le quatrième de cinq enfants.
+            </p>
+          </div>
+          <img src="../images/timeline/1963.jpg" alt="MJ enfant">
+        </div>
+        <div class="container right">
+          <div id="1984" class="date">1982</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Université</h2>
+            <p>
+              Il obtient une bourse de basket-ball à 
+              <a href="https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Caroline_du_Nord_%C3%A0_Chapel_Hill" target="_blank"> l'université de Caroline du Nord </a>, où il vise un diplôme en
+              géographie culturelle, et est élu meilleur jouer de la conférence Atlantique. Il marque, en 1982, le
+              panier qui fait remporter le titre
+              <a href="https://fr.wikipedia.org/wiki/National_Collegiate_Athletic_Association" target="_blank"> NCAA </a>
+(le très prisé championnat universitaire) aux Tar Heels, l'équipe
+              de son université.
+            </p>
+          </div>
+          <img src="../images/timeline/1982.jpg" alt="MJ université">
+        </div>
+
+        <div class="container left">
+          <div id="1991" class="date">1984</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Chicago Bulls</h2>
+            <p>
+              Jordan quitte l'université de Caroline du Nord un an avant la date prévue pour l'obtention de son diplôme
+              et se présente à <a href="https://fr.wikipedia.org/wiki/Draft_1984_de_la_NBA" target="_blank"> la draft de la NBA </a> en 1984. Il est sélectionné par les <a href="https://fr.wikipedia.org/wiki/Bulls_de_Chicago" target="_blank">Chicago Bulls</a>.
+              Avant de commencer sa <strong>carrière professionnelle</strong>, il remporte une première médaille d'or Olympique, aux Jeux
+              de Los Angeles de 1984. Dès sa première année à Chicago, il établit des records de points, il est nommé <a href="https://fr.wikipedia.org/wiki/Rookie" target="_blank">Rookie</a>
+               de l'année (le meilleur débutant) et est sélectionné pour le All Stars Game, un honneur rarissime 
+              pour un rookie</p>
+          </div>
+          <img src="../images/timeline/1984.jpg" alt="MJ chicago bulls" style="width: 220px;">
+        </div>
+        <div class="container right">
+          <div id="1992" class="date">1991</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Titres MVP</h2>
+            <p>
+              Il devient le <strong>meilleur marqueu</strong>r des Finales de la NBA avec 31,3 points par match lors de la victoire des
+              Bulls sur les Lakers de Los Angeles, 4-1, pour remporter le premier titre NBA de la franchise. </p>
+          </div>
+          <img src="../images/timeline/1991.jpg" alt="MJ coupe">
+        </div>
+        <div class="container left">
+          <div id="1993" class="date">1992</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <p>
+              A remporté <strong>l'or</strong> aux Jeux olympiques d'été de 1992 Les Jeux olympiques d'été de 1992 avec la <a href="https://fr.wikipedia.org/wiki/Dream_Team" target="_blank">"Dream Team"</a>
+              composée de Magic Johnson, Larry Bird et David Robinson. Il obtient le titre de meilleur joueur avec 35,8
+              points, 4,8 rebonds et 6,5 passes décisives en moyenne par match lors de la victoire des Bulls sur les
+              Portland Trail Blazers (4-2), remportant ainsi leur deuxième titre NBA consécutif. </p>
+          </div>
+          <img src="../images/timeline/1992.jpg" alt="MJ records jeux olympiques">
+        </div>
+        <div class="container right">
+          <div id="19932" class="date">1993</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <p>
+              Titre de meilleur joueur des finales - Il a réalisé une moyenne record de 41,0 points par match, avec 8,5
+              rebonds et 6,3 passes décisives, en menant les Bulls à leur troisième titre NBA consécutif, la première
+              équipe en 27 ans à remporter <strong>trois titres consécutifs</strong>. 6 octobre 1993 Michael Jordan en prenant sa
+              retraite, mais celle-ci est de courte durée.</p>
+          </div>
+          <img src="../images/timeline/1993.jpg" alt="MJ retraite">
+        </div>
+        <div class="container left">
+          <div id="1994" class="date">1993</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>La pause</h2>
+            <p>
+              En octobre 1993, à trente ans à peine, Michael Jordan annonce sa retraite sportive. Cette nouvelle qui
+              stupéfie le monde du basket-ball est d'autant plus importante lorsque Michael Jordan révèle qu'il a signé
+              avec les White Sox de Chicago, une équipe de base-ball évoluant en ligue mineure.
+
+            </p>
+          </div>
+          <img src="../images/timeline/retraite.jpg" alt="MJ baseball">
+        </div>
+        <div class="container right">
+          <div id="1995" class="date">1994</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Une nouvelle carrière</h2>
+            <p>Il fera 127 matches de base-ball, puis 35 autres avec <a href="https://fr.wikipedia.org/wiki/Scorpions_de_Scottsdale" target="_blank">les Scorpions de Scottsdale</a>, avant de réaliser
+              qu'il n'a pas le niveau pour devenir un base-baller de ligue majeure.</p>
+          </div>
+          <img src="../images/timeline/baseball.jpg" alt="MJ base-ball">
+        </div>
+        <div class="container left">
+          <div id="1999" class="date">1995</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Le retour</h2>
+            <p>
+              Alors que les Chicago Bulls ont peiné à maintenir leur statut il annonce sont retour et revient dans
+              l'équipe.
+              Le premier match qu'il dispute, face aux Indiana Pacers, est suivi par <strong>35 millions d'américains sur NBC</strong>,
+              le record pour un match de saison régulière depuis 1975.
+            </p>
+          </div>
+          <img src="../images/timeline/1995.jpg" alt="MJ match retour">
+        </div>
+
+        <div class="container right">
+          <div id="2001" class="date">1999</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Une nouvelle pause</h2>
+            <p>Avec le départ de son entraîneur Phil Jackson, et de ses acolytes Scotty Pippen et Dennis
+              Rodman, il annonce sa retraite sportive, une deuxième fois.</p>
+          </div>
+          <img src="../images/timeline/1999.jpg" alt="MJ annonce deuxieme pause" style="width: 200px;">
+        </div>
+        <div class="container left">
+          <div id="2002" class="date">2001</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Le retour</h2>
+            <p>
+              Il passe l'été 2001 à s'entraîner en secret, et à la surprise générale, il annonce en septembre 2001 son
+              retour comme joueur, au sein de l'équipe des Washington Wizards qu'il dirige.
+
+            </p>
+          </div>
+          <img src="../images/timeline/2001.jpg" alt="MJ retour">
+        </div>
+
+        <div class="container right">
+          <div id="2003" class="date">2002</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>La fin de sa carrière</h2>
+            <p>L'année de ses 40 ans, les Wizards ne se qualifient pas pour les playoffs. Il sait que cette saison est
+              vraiment sa dernière, et à plusieurs occasions, les autres équipes de la ligue organisent, pour sa venue,
+              des <strong>cérémonies émouvantes pour saluer sa carrière unique</strong>. </p>
+          </div>
+          <img src="../images/timeline/2002.jpg" alt="MJ fin de carrière" style="width: 200px;">
+        </div>
+        <div class="container left">
+          <div id="2023" class="date">2003</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Le dernier match</h2>
+            <p>
+              Il dispute en février 2003 son ultime <a href="https://fr.wikipedia.org/wiki/NBA_All-Star_Game" target="_blank">All Star Game</a>, devenant le meilleur marqueur de l'histoire de cette
+              compétition spectacle, et joue son <strong>dernier match officiel</strong> le 16 avril 2003 à Philadelphie, où il est
+              longuement ovationné par le public, et ses adversaires.
+            </p>
+          </div>
+          <img src="../images/timeline/2003.jpg" alt="MJ dernier match">
+        </div>
+
+
+        <div class="container right">
+          <div class="date">2006-</div>
+          <i class="logo fa fa-basketball"></i>
+          <div class="content">
+            <h2>Après</h2>
+            <p>
+              Depuis 2006, Michael Jordan multiplie les projets qu'ils soient professionnels ou personnels : Il fera du
+              golf, s'occupera de sa ligne de vêtements de sport chez Nike. Il montera une équipe de course moto
+              professionnelle. Il ouvrira plusieurs restaurants, dont les <a href="https://en.wikipedia.org/wiki/Michael_Jordan%27s_Steakhouse" target="_blank">"Michael Jordan Steakhouse"</a>.
+
+              En 2010, il rachète le club pour 275 millions de dollars, <strong> devenant ainsi le seul propriétaire noir d'une
+              franchise NBA</strong>, qu'il gère encore à ce jour.</p>
+          </div>
+          <img src="../images/timeline/apres.jpg" alt="MJ aujourd'hui">
+        </div>
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <a href="#top" style="background-color:  #aaa; color: white; padding: 5px; border-radius: 20px;">Retour au
+        début</a>
+    </div>
+
+
+    <img src="../images/play.png" id="icon">
+    <audio id="mySong">
+      <source src="../sons/chicago-bulls-theme.mp3" type="audio/mp3">
+    </audio>
+    <script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+
+  </main>
+
+  <!--Footer-->
+
+  </main><span class="bloc-audio"></span>
+  <footer>
+    <p style="float:left;">Copyright© <sec> All Rights Reserved To</sec> <a href="mailto:maya.mazuet@utt.fr">Maya
+            Mazuet</a></p>
+    <span class="liens"><a title="Vers la page contact" href="contact.html">Contact</a> - <a
+            title="Vers la page crédits" href="credits.html">Crédits</a></span>
+</footer>
+  <!--Fin Footer-->
+
+</body>
+<script src="../style/TDL2.js"></script>
+<script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+
+</html>

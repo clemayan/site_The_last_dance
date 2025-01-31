@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Site sur la série The Last Dance Maya MAZUET A23">
+    <meta name="author" lang="fr" content="Maya MAZUET">
+    <meta name="Description"
+        content="Ce site est un site vitrine sur la série The Last Dance. Il a été produit dans le cadre de l'UE MM01 de l'Université de Technologie de Troyes par Maya MAZUET en A23.">
+    <title>The Last Dance</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/chicago-bulls2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <!--Plices ??? pas certaine-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Loader-->
+    <div id="loader-container">
+      <img id="loader" src="../images/loader.gif" alt="Chargement...">
+      <p>Chargement ...</p>
+    </div>
+    <!--Navigation-->
+    <header>
+        <div id="navbar">
+            <div class="accueil">
+                <a href="../index.html" title="vers la page des équipes">
+                    <p>Accueil</p>
+                    <i class="fa-solid fa-house fa-2x"></i>
+                </a>
+            </div>
+
+            <div class="pages">
+                <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan" class="active">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: black;"><img
+                        src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                        style="right: 45%;top:0;"></a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits">Crédits</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Navigation responsive format mobile -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="pagesresp">
+                <a href="../index.html" title="vers la page des équipes" class="active accueil">Accueil</a>
+                <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits">Crédits</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menuresp">
+            <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: rgb(193,47,63,0);"><img
+                    src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                    width="5%"></a>
+            <span class="burger" onclick="openNav()">&#9776;</span>
+        </div>
+        <!-- Fin Navigation responsive format mobile -->
+    </header>
+    <div id="contenu" class="celebrite">
+        <div class="parallax"></div>
+        <div class="mj">
+            <hr>
+            <h1>MICHAEL JORDAN</h1>
+            <hr>
+        </div>
+
+
+        <h3>Michael Jordan est le meilleur joueur
+            de basket en NBA de tous les temps.</h3><br>
+        <ul class="ul">
+            <strong>Il gagna tous les titres collectifs
+                possibles :</strong>
+            <li>titre universitaire avec North Carolina</li>
+            <li>titre olympique avec les Etats-Unis avec la "Dream Team"
+            <li>titre NBA avec les Chicago Bulls</li>
+            <br>
+        </ul>
+        <ul style="padding: 50px; background-color:#e5e5e5;">
+            <strong> il remporta presque toutes les récompenses individuelles possibles :</strong>
+
+            <img src="../images/celebrite/coupe.gif" alt="MJ coupe" title="MJ coupe">
+            <li>MVP de saison régulière</li>
+            <li>MVP de All Star Game</li>
+            <li>MVP des finales NBA</li>
+            <li>meilleur marqueur</li>
+            <li>meilleur défenseur</li>
+        </ul>
+        <br>
+        <br>
+        <hr>
+        <h2>Notoriété</h2>
+        <img src="../images/celebrite/victoire.jpg" alt="MJ et Pippen victoire" title="MJ et Pippen victoire">
+        <p>
+            <a href="https://fr.wikipedia.org/wiki/Michael_Jordan" target="_blank">Michael Jeffrey Jordan</a>
+            est considéré comme le plus grand basketteur de tous les temps, <strong>le plus grand sportif américain de
+                l'histoire</strong> et un businessman avisé. Michael Jordan collectionne les superlatifs et son nom est
+            synonyme de gloire, d'argent, de controverse et de passion.
+        </p>
+        <p>
+            Mais cette notoriété lui pèse : il craint pour sa sécurité, descend dans des hôtels-forteresses, souvent
+            sous un faux nom, dispose d'un compartiment particulier dans l'avion de son équipe.
+            En 1993, il obtient un troisième titre consécutif de
+            <a href="https://fr.wikipedia.org/wiki/Liste_des_champions_NBA" target="_blank">champion N.B.A.</a>, à
+            l'issue d'une finale intense
+            face
+            aux Phoenix Suns de Charles Barkley. <br>Mais, durant l'été de 1993, son père, James, est assassiné.
+            Anéanti par la mort de son père, Michael Jordan, épuisé, annonce le 6 octobre 1993 <strong>sa
+                retraite</strong> de basketteur professionnel, pour
+            s'adonner à son autre passion d'enfant, le baseball.
+            Il évolue durant quelques mois, sans grande réussite,
+            au sein de l'équipe de baseball des Birmingham Barons, puis reviendra dans le monde du basket un temps,
+            avant d'arreter definitivement sa carrière en <strong>2003</strong>.
+        </p>
+        <p>
+            En 2009 Michael Jordan est entré <strong>au panthéon du basket mondial </strong>: le <a
+                href="https://fr.wikipedia.org/wiki/Temple_de_la_renomm%C3%A9e" target="_blank">Hall of Fame</a>. Chaque
+            année, le
+            panthéon
+            du basket accueille quelques légendes de ce basket. Cette promotion 2009 restera exceptionnelle avec
+            l'intronisation du meilleur joueur de tous les temps : Michael Jordan.
+        </p>
+        <br>
+        <hr>
+
+        <h2>Publicité et contrats</h2>
+
+        <img src="../images/celebrite/nike.jpg" alt="MJ nike" title="MJ nike" style="float: left;">
+
+        <p>
+            Le statut de Michael Jordan dépasse largement la sphère du basket-ball, et même du sport. Star
+            internationale, ses <strong> revenus</strong> sont colossaux, ses apparitions dans les clips publicitaires
+            constituent des
+            événements, il est l'emblème sportif de<a href="https://fr.wikipedia.org/wiki/Nike" target="_blank">
+                Nike</a>, avec qui il s'est même associé pour fonder, en 1997,<a
+                href="https://fr.wikipedia.org/wiki/Nike_Air_Jordan" target="_blank">
+                Jordan
+                Brand</a>, société qui commercialise des articles de sport. Les Air Jordan sont tout simplement entrées
+            dans
+            la <strong> pop culture</strong>.
+            Il a aussi tourné dans un dessin animé, Space Jam, au côté... de Bugs Bunny. Mais, pour l'homme
+            d'affaires,
+            la passion du basket-ball reste la plus forte : en 2010, il devient, pour <strong>275 millions de dollars</strong>,
+            propriétaire d'une franchise de la N.B.A., les Charlotte Bobcats.</p>
+        <br>
+        <br>
+        <hr>
+        <h2>Richesse</h2>
+
+        <img src="../images/celebrite/richesse.jpg" alt="MJ bagues" title="MJ bagues">
+        <p>En 2013, soit dix ans après sa retraite, il est encore le sportif retraité avec les plus forts gains,
+            d'un
+            montant <strong>de 90 millions de dollars</strong>. En 2014, rien que son pourcentage sur les chaussures à son nom lui
+            aurait
+            rapporté <strong>100 millions de dollars</strong>, soit plus que les gains cumulés de sa carrière de joueur salarié.
+            Selon le
+            classement Forbes 2015, Michael Jordan fait une entrée fracassante, en devenant la <strong>1741e personne la
+            plus
+            riche du monde</strong>. En 2019, <strong style="background-color: #e5e5e5; color: darkred;">sa fortune est estimée à 1,9 milliard de dollars, faisant de lui le troisième
+            afro-américain le plus riche derrière Robert F Smith et Oprah Winfrey</strong>. </p>
+
+        <div class="floating">
+            <div class="card-object rotate">
+                <aside></aside>
+                <main>
+                    <blockquote class="message">Certains <em class="forget">veulent</em> que ça arrive. D'autres <em
+                            class="forget">aimeraient</em> que ça arrive. Et les autres <em class="forget">font que
+                            ça
+                            arrive.</em></blockquote>
+                </main>
+                <div class="author">Michael Jordan</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <img src="../images/play.png" id="icon">
+    <audio id="mySong">
+        <source src="../sons/chicago-bulls-theme.mp3" type="audio/mp3">
+    </audio>
+
+
+
+    <!--Footer-->
+
+    </main><span class="bloc-audio"></span>
+    <footer>
+        <p style="float:left;">Copyright© <sec> All Rights Reserved To</sec> <a href="mailto:maya.mazuet@utt.fr">Maya
+                Mazuet</a></p>
+        <span class="liens"><a title="Vers la page contact" href="contact.html">Contact</a> - <a
+                title="Vers la page crédits" href="credits.html">Crédits</a></span>
+    </footer>
+    <!--Fin Footer-->
+    <script src="../style/TDL2.js"></script>
+    <script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

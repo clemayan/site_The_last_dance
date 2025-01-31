@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Site sur la série The Last Dance Maya MAZUET A23">
+    <meta name="author" lang="fr" content="Maya MAZUET">
+    <meta name="Description"
+        content="Ce site est un site vitrine sur la série The Last Dance. Il a été produit dans le cadre de l'UE MM01 de l'Université de Technologie de Troyes par Maya MAZUET en A23.">
+    <title>The Last Dance</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/chicago-bulls2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--Loader-->
+    <div id="loader-container">
+      <img id="loader" src="../images/loader.gif" alt="Chargement...">
+      <p>Chargement ...</p>
+    </div>
+    <!--Navigation-->
+    <header>
+        <div id="navbar">
+            <div class="accueil">
+                <a href="../index.html" title="vers la page des équipes">
+                    <p>Accueil</p>
+                    <i class="fa-solid fa-house fa-2x"></i>
+                </a>
+            </div>
+
+            <div class="pages">
+                <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: black;"><img
+                        src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                        style="right: 45%;top:0;"></a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série"
+                            class="active">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits">Crédits</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Navigation responsive format mobile -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="pagesresp">
+                <a href="../index.html" title="vers la page des équipes" class="active accueil">Accueil</a>
+                <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits">Crédits</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menuresp">
+            <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: rgb(193,47,63,0);"><img
+                    src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                    width="5%"></a>
+            <span class="burger" onclick="openNav()">&#9776;</span>
+        </div>
+        <!-- Fin Navigation responsive format mobile -->
+    </header>
+    <img src="../images/play.png" id="icon">
+    <audio id="mySong">
+        <source src="../sons/chicago-bulls-theme.mp3" type="audio/mp3">
+    </audio>
+    <div id="contenu">
+        <div class="critiques">
+            <h2>Ce qu'ils en pensent</h2>
+            <span>
+                <i class="fa fa-star fa-3x "></i>
+                <i class="fa fa-star fa-3x "></i>
+                <i class="fa fa-star fa-3x "></i>
+                <i class="fa fa-star fa-3x"></i>
+                <i class="fa fa-star fa-3x fa-star-half-stroke"></i></span>
+
+        </div>
+        <br>
+        <br>
+        <!-- Critiques des gens -->
+        <div style="
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 80px;">
+            presse :
+            <a class="c"
+                href="https://chicago.suntimes.com/2020/4/15/21220771/last-dance-review-bulls-documentary-michael-jordan-chicago-90s-dynasty"
+                target="_blank" title="lien vers l'avis de Chicago Sun-Times">
+                <div class="avis group">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="quote-container">
+                        <blockquote>
+                            <p>"Chaque épisode vous donne envie de voir le suivant et d’en savoir plus. Les Bulls
+                                formaient
+                                déjà une équipe qui a marqué l'Histoire et ils transcendent ce documentaire sportif qui
+                                restera dans les annales.”</p>
+                        </blockquote>
+
+                        <cite><span class="note">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star fa-star-half-stroke"></i></span><br> 4.5/5<br><span>Chicago
+                                Sun-Times</span>
+                        </cite>
+                    </div>
+                </div>
+
+            </a>
+
+            <hr class="av">
+            <a class="c"
+                href="https://www.premiere.fr/Series/News-Series/The-Last-Dance-Netflix-lode-immanquable-a-Michael-Jordan"
+                target="_blank" title="lien vers l'avis de Première">
+                <div class="avis group right">
+                    <i class="fa-solid fa-user" style="right: 10%; "></i>
+                    <div class="quote-container">
+                        <div>
+                            <blockquote>
+                                <p>"Jamais encore [Michael Jordan] n'avait eu droit à un documentaire aussi exhaustif,
+                                    aussi
+                                    passionnant, aussi saisissant, captant avec une extraordinaire adresse l'impact que
+                                    "MJ"
+                                    a eu sur la balle orange, sur la ville de Chicago, sur le monde du sport, et sur le
+                                    monde en général.”</p>
+                            </blockquote>
+
+                            <cite><span class="note">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star fa-star-half-stroke"></i></span><br>
+                                4.5/5<br><span>Première</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <hr class="av">
+            public :
+            <a class="c" href="https://www.senscritique.com/serie/the_last_dance/critique/220390119" target="_blank"
+                title="lien vers l'avis de Cambroa">
+                <div class="avis group">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="quote-container">
+                        <blockquote>
+                            <p>"Là est tout le brio de cette série, construire un redoutable suspens via l’interview
+                                classique de tous les acteurs principaux, entrelaçant des images de leurs
+                                performances
+                                sur
+                                le terrain narrant ce moment capital pour le monde de la NBA et cette communauté
+                                sportive.
+                                […] Leur histoire nous est racontée d’une brillante manière par ce documentaire
+                                intense
+                                et
+                                passionnant à suivre.”</p>
+                        </blockquote>
+
+                        <cite><span class="note">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star fa-star-half-stroke"></i></span><br>
+                            4.5/5<br><span>Cambroa</span>
+                    </div>
+                </div>
+            </a>
+            <hr class="av">
+            <a class="c" href="https://www.senscritique.com/serie/the_last_dance/critique/224604767" target="_blank"
+                title="lien vers l'avis de GuiKD">
+                <div class="avis group right">
+
+                    <i class="fa-solid fa-user" style="right: 10%; "></i>
+                    <div class="quote-container">
+                        <div>
+                            <blockquote>
+                                <p>"Quel chef d'oeuvre, j'ai rarement autant aimé un documentaire. C'est bien détaillé,
+                                    ça
+                                    retrace toute une époque et les années 90. Ca m'a replongée dans cette découverte de
+                                    la
+                                    NBA
+                                    des années 90, la dream team et surtout m'a permis de mieux découvrir la brute de
+                                    talent
+                                    qu'était Jordan […] Je suis bluffé car j'ai dévoré les 10 épisodes.”</p>
+                            </blockquote>
+
+                            <cite><span class="note">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i></span><br> 5/5<br><span>GuiKD</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+
+    </div>
+    <!-- fin critiques -->
+
+
+    </div>
+
+    <!--Footer-->
+
+    </main><span class="bloc-audio"></span>
+    <footer>
+        <p style="float:left;">Copyright© <sec> All Rights Reserved To</sec> <a href="mailto:maya.mazuet@utt.fr">Maya
+                Mazuet</a></p>
+        <span class="liens"><a title="Vers la page contact" href="contact.html">Contact</a> - <a
+                title="Vers la page crédits" href="credits.html">Crédits</a></span>
+    </footer>
+    <!--Fin Footer-->
+    <script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+</body>
+<script src="../style/TDL2.js"></script>
+<script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+
+</html>

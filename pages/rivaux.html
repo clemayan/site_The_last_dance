@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Site sur la série The Last Dance Maya MAZUET A23">
+    <meta name="author" lang="fr" content="Maya MAZUET">
+    <meta name="Description"
+        content="Ce site est un site vitrine sur la série The Last Dance. Il a été produit dans le cadre de l'UE MM01 de l'Université de Technologie de Troyes par Maya MAZUET en A23.">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/chicago-bulls2.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans:regular" media="all">
+
+</head>
+
+<body>
+    <!--Loader-->
+    <div id="loader-container">
+      <img id="loader" src="../images/loader.gif" alt="Chargement...">
+      <p>Chargement ...</p>
+    </div>
+    <!--Navigation-->
+    <header>
+        <div id="navbar">
+            <div class="accueil">
+                <a href="../index.html" title="vers la page des équipes">
+                    <p>Accueil</p>
+                    <i class="fa-solid fa-house fa-2x"></i>
+                </a>
+            </div>
+
+            <div class="pages">
+                <a href="personnages.html" title="vers la page des équipes" class="active">Personnages</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: black;"><img
+                        src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                        style="right: 45%;top:0;"></a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits">Crédits</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Navigation responsive format mobile -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="pagesresp">
+                <a href="../index.html" title="vers la page des équipes" class="active accueil">Accueil</a>
+                <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits">Crédits</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menuresp">
+            <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: rgb(193,47,63,0);"><img
+                    src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                    width="5%"></a>
+            <span class="burger" onclick="openNav()">&#9776;</span>
+        </div>
+        <!-- Fin Navigation responsive format mobile -->
+    </header>
+
+    <div id="contenu">
+        <!-- Texte arrondi lien vers les entraineurs et rivaux -->
+        <div class="warp2" aria-labelledby="warp2-label">
+            <span id="warp2-label" class="warp2__placeholder">
+                Chicago Bulls
+            </span>
+
+            <span aria-role="presentation">
+                <span class="warp2__0">
+                    C
+                </span>
+                <span class="warp2__1">
+                    h
+                </span>
+                <span class="warp2__2">
+                    i
+                </span>
+                <span class="warp2__3">
+                    c
+                </span>
+                <span class="warp2__4">
+                    a
+                </span>
+                <span class="warp2__5">
+                    g
+                </span>
+                <span class="warp2__6">
+                    o
+                </span>
+                <span class="warp2__7">
+
+                </span>
+                <span class="warp2__8">
+                    B
+                </span>
+                <span class="warp2__9">
+                    u
+                </span>
+                <span class="warp2__10">
+                    l
+                </span>
+                <span class="warp2__11">
+                    l
+                </span>
+                <span class="warp2__12">
+                    s
+                </span>
+            </span>
+        </div>
+        <!-- Fin Texte arrondi -->
+
+        <a href="personnages.html" title="vers la page des chicago bulls">
+            <i class="fa-solid fa-basketball fa-4x fa-spin chicago" style="--fa-animation-duration: 7s;"></i></a>
+        <h1>Les rivaux</h1>
+        <div class="equipe">
+            <div class="colonne">
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Karl_Malone" target="_blank" title="en savoir plus">
+                        <img alt="KARL MALONE" src="../images/joueur/rivaux/32-KARL-MALONE.jpg" style="width:100%">
+                        <p class="description"> <strong>Karl Anthony Malone</strong><br><em class="color">équipe :</em>
+                            Jazz de l'Utah<br><em class="color">position
+                                :</em> Ailier fort <br><em class="color">taille :</em> 2,06m<br><em class="color">numéro
+                                :</em> 32</p>
+                    </a>
+                </div>
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/John_Stockton" target="_blank" title="en savoir plus">
+                        <img alt="JOHN STOCKTON" src="../images/joueur/rivaux/12-JOHN-STOCKTON.jpg" style="width:100%">
+                        <p class="description"> <strong>John Houston Stockton</strong><br><em class="color">équipe
+                                :</em> Jazz de l'Utah<br><em class="color">position
+                                :</em> Meneur <br><em class="color">taille :</em> 1,85m<br><em class="color">numéro
+                                :</em> 12</p>
+                    </a>
+                </div>                
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Gheorghe_Mure%C8%99an" target="_blank" title="en savoir plus">
+                        <img alt="GHEORGHE MURESAN" src="../images/joueur/rivaux/77-GHEORGHE-MURESAN.jpg" style="width:100%">
+                        <p class="description"> <strong>Gheorghe Mureșan</strong><br><em class="color">équipe :</em> Bullets de Baltimore<br><em class="color">position
+                                :</em>
+                            Meneur<br><em class="color">taille :</em> 2,32m<br><em class="color">numéro :</em> 77</p>
+                    </a>
+                </div>
+                
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Stephen_Curry" target="_blank" title="en savoir plus">
+                        <img alt="STEPHEN CURRY" src="../images/joueur/rivaux/30-STEPHEN-CURRY.jpg" style="width:100%">
+                        <p class="description"> <strong>Wardell Stephen Curry II</strong><br><em class="color">équipe
+                                :</em> Warriors de Golden State<br><em class="color">position
+                                :</em>
+                            Meneur<br><em class="color">taille :</em> 1,88m<br><em class="color">numéro :</em> 30</p>
+                    </a>
+                </div>
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Mookie_Blaylock" target="_blank" title="en savoir plus">
+                        <img alt="MOOKIE BLAYLOCK" src="../images/joueur/rivaux/10-DARON-BLAYLOCK.jpg" style="width:100%">
+                        <p class="description"> <strong> Daron Oshay Blaylock</strong><br><em class="color">équipe
+                                :</em> Nets du New Jersey<br><em class="color">position
+                                :</em>
+                            Meneur<br><em class="color">taille :</em> 1,83m<br><em class="color">numéro :</em> 10</p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="colonne">
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Larry_Bird" target="_blank" title="en savoir plus">
+                        <img alt="LARRY BIRD" src="../images/joueur/rivaux/33-LARRY-BIRD.jpg" style="width:100%">
+                        <p class="description"> <strong>Larry Joe Bird</strong><br><em class="color">équipe :</em>
+                            Celtics de Boston<br><em class="color">position
+                                :</em> Ailier / Ailier fort<br><em class="color">taille :</em> 2,06m<br><em
+                                class="color">numéro :</em> 33</p>
+                    </a>
+                </div>
+
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Charles_Barkley" target="_blank" title="en savoir plus">
+                        <img alt="CHARLES BARKLEY" src="../images/joueur/rivaux/34-CHARLES-BARKLEY.jpg" style="width:100%">
+                        <p class="description"> <strong>Charles Barkley</strong><br><em class="color">équipe :</em>
+                            76ers de Philadelphie<br><em class="color">position
+                                :</em> Ailier fort<br><em class="color">taille :</em> 1,98m<br><em
+                                class="color">numéro :</em> 34</p>
+                    </a>
+                </div>
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Sherman_Douglas" target="_blank" title="en savoir plus">
+                        <img alt="SHERMAN DOUGLAS" src="../images/joueur/rivaux/20-SHERMAN-DOUGLAS.jpg" style="width:100%">
+                        <p class="description"> <strong>Sherman Douglas</strong><br><em class="color">équipe
+                                :</em> Heat de Miami<br><em class="color">position
+                                :</em>
+                            Meneur<br><em class="color">taille :</em> 1,83m<br><em class="color">numéro :</em> 20</p>
+                    </a>
+                </div>
+
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Glen_Rice" target="_blank" title="en savoir plus">
+                        <img alt="GLEN RICE" src="../images/joueur/rivaux/41-GLEN-RICE.jpg" style="width:100%">
+                        <p class="description"> <strong>Glen Rice</strong><br><em class="color">équipe
+                                :</em> Heat de Miami<br><em class="color">position
+                                :</em> Ailier / Arrière<br><em class="color">taille :</em> 2,01m<br><em class="color">numéro :</em> 41</p>
+                    </a>
+                </div>
+
+                
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Kareem_Abdul-Jabbar" target="_blank" title="en savoir plus">
+                        <img alt="KAREEM ABDUL-JABBAR" src="../images/joueur/rivaux/33-KAREEM ABDUL-JABBAR.jpg" style="width:100%">
+                        <p class="description"> <strong>Ferdinand Lewis Alcindor, Jr<br> Kareem
+                                Abdul-Jabbar</strong><br><em class="color">équipe :</em> Bucks de Milwaukee<br><em
+                                class="color">position
+                                :</em>
+                            Pivot<br><em class="color">taille :</em> 2,18m<br><em class="color">numéro :</em> 33</p>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div class="colonne">
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Magic_Johnson" target="_blank" title="en savoir plus">
+                        <img alt="MAGIC JOHNSON" src="../images/joueur/rivaux/32-MAGIC-JOHNSON.jpg" style="width:100%">
+                        <p class="description"> <strong>Earvin Johnson Jr.</strong><br><em class="color">équipe :</em>
+                            Lakers de Los Angeles<br><em class="color">position
+                                :</em>
+                            Meneur<br><em class="color">taille :</em> 2,06m<br><em class="color">numéro :</em> 32</p>
+                    </a>
+                </div>
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Mitch_Richmond" target="_blank" title="en savoir plus">
+                        <img alt="MITCHELL RICHMOND" src="../images/joueur/rivaux/2-MITCHELL-RICHMOND.jpg" style="width:100%">
+                        <p class="description"> <strong>Mitchell James Richmond</strong><br><em class="color">équipe
+                                :</em> Warriors de Golden State<br><em class="color">position
+                                :</em>
+                            Arrière<br><em class="color">taille :</em> 1,96m<br><em class="color">numéro :</em> 2</p>
+                    </a>
+                </div>
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Mark_Jackson_(basket-ball)" target="_blank"
+                        title="en savoir plus">
+                        <img alt="MARK JACKSON" src="../images/joueur/rivaux/13-MARK-JACKSON.jpg" style="width:100%">
+                        <p class="description"> <strong>Mark A. Jackson</strong><br><em class="color">équipe
+                                :</em> Knicks de New York<br><em class="color">position
+                                :</em>
+                            Meneur<br><em class="color">taille :</em> 1,98m<br><em class="color">numéro :</em> 13</p>
+                    </a>
+                </div>
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Shawn_Bradley" target="_blank"
+                        title="en savoir plus">
+                        <img alt="SHAWN BRADLEY" src="../images/joueur/rivaux/44-SHAWN-BRADLEY.jpg" style="width:100%">
+                        <p class="description"> <strong>Shawn Paul Bradley</strong><br><em class="color">équipe
+                                :</em> Knicks de New York<br><em class="color">position
+                                :</em>
+                            Pivot<br><em class="color">taille :</em> 2,29m<br><em class="color">numéro :</em> 44</p>
+                    </a>
+                </div>
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Mark_Price" target="_blank"
+                        title="en savoir plus">
+                        <img alt="MARK PRICE" src="../images/joueur/rivaux/25-MARK-PRICE.jpg" style="width:100%">
+                        <p class="description"> <strong>William Mark Price</strong><br><em class="color">équipe
+                                :</em> Mavericks de Dallask<br><em class="color">position
+                                :</em>
+                            Meneur<br><em class="color">taille :</em> 1,83m<br><em class="color">numéro :</em> 25</p>
+                    </a>
+                </div>
+
+                
+            </div>
+            
+
+        </div>
+
+        <!-- les entraineurs -->
+        <h1 id="entraineurs">Les entraineurs</h1>
+        <div class="equipe">
+            <div class="colonne">
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Bill_Wennington" target="_blank" title="en savoir plus">
+                        <img alt="Phil Jackson" src="../images/joueur/phil-jackson.jpg" style="width:100%">
+                        <p class="description"><strong>Phil Jackson</strong><br><br>de 1989 à 1998<br>Fait partie du Top
+                            15 des meilleurs
+                            entraîneurs de l'histoire de la NBA.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="colonne">
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Bill_Wennington" target="_blank" title="en savoir plus">
+                        <img alt="Tim Floyd" src="../images/joueur/Tim-Floyd.jpg" style="width:100%">
+                        <p class="description"><strong>Tim Floyd</strong><br><br>de 1998 à 2001<br></p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="colonne">
+
+                <div class="carte">
+                    <a href="https://fr.wikipedia.org/wiki/Bill_Wennington" target="_blank" title="en savoir plus">
+                        <img alt="Bill Cartwright" src="../images/joueur/Bill Cartwright.jpg" style="width:100%">
+                        <p class="description"><strong>Bill Cartwright</strong><br><br>de 2001 à 2003<br></p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="../images/play.png" id="icon">
+    <audio id="mySong">
+        <source src="../sons/chicago-bulls-theme.mp3" type="audio/mp3">
+    </audio>
+    <script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+
+
+    <!--Footer-->
+
+    </main><span class="bloc-audio"></span>
+    <footer>
+        <p style="float:left;">Copyright© <sec> All Rights Reserved To</sec> <a href="mailto:maya.mazuet@utt.fr">Maya
+                Mazuet</a></p>
+        <span class="liens"><a title="Vers la page contact" href="contact.html">Contact</a> - <a
+                title="Vers la page crédits" href="credits.html">Crédits</a></span>
+    </footer>
+    <!--Fin Footer-->
+</body>
+<script src="../style/TDL2.js"></script>
+<script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+
+</html>

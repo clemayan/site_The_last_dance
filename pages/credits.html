@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Site sur la série The Last Dance Maya MAZUET A23">
+    <meta name="author" lang="fr" content="Maya MAZUET">
+    <meta name="Description"
+        content="Ce site est un site vitrine sur la série The Last Dance. Il a été produit dans le cadre de l'UE MM01 de l'Université de Technologie de Troyes par Maya MAZUET en A23.">
+    <title>The Last Dance</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/chicago-bulls2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Loader-->
+    <div id="loader-container">
+      <img id="loader" src="../images/loader.gif" alt="Chargement...">
+      <p>Chargement ...</p>
+    </div>
+    <!--Navigation-->
+    <header>
+        <div id="navbar">
+            <div class="accueil">
+                <a href="../index.html" title="vers la page des équipes">
+                    <p>Accueil</p>
+                    <i class="fa-solid fa-house fa-2x"></i>
+                </a>
+            </div>
+
+            <div class="pages">
+                <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: black;"><img
+                        src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                        style="right: 45%;top:0;"></a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits" class="active">Crédits</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Navigation responsive format mobile -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="pagesresp">
+                <a href="../index.html" title="vers la page des équipes" class="active accueil">Accueil</a>
+                <a href="personnages.html" title="vers la page des équipes">Personnages</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Biographie →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="celebrite.html" title="vers la page sur Micheal Jordan">Célébrité</a>
+                        <a href="timeline.html">Timeline</a>
+                    </div>
+                </div>
+                <a href="media.html" title="vers la page des photos">Médias</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Récompenses →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="critiques.html" title="vers la page des critiques de la série">Critiques</a>
+                        <a href="prix.html" title="vers la page des prix">Prix</a>
+                    </div>
+                </div>
+                <a href="quiz.html" title="vers la page de quiz">Quiz</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Ressources →</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html" title="vers la page formulaire">Contact</a>
+                        <a href="credits.html" title="vers la page des crédits">Crédits</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menuresp">
+            <a href="bande_annonce.html" title="vers la bande annonce" style="background-color: rgb(193,47,63,0);"><img
+                    src="../images/chicago-bulls.png" alt="icon chicago bulls" title="vers bande annonce"
+                    width="5%"></a>
+            <span class="burger" onclick="openNav()">&#9776;</span>
+        </div>
+        <!-- Fin Navigation responsive format mobile -->
+    </header>
+    <div id="contenu" class="credits">
+        <h1>Crédits</h1>
+        <p>
+            Ce site Web de type vitrine a été conçu et réalisé dans le cadre de l'UE MM01.</p>
+
+        <div class="sources">
+            <hr>
+            <p><strong>
+                    Conception et Développement web du site :</strong><br>
+                <u>
+                    Maya Mazuet avec
+                    l'utilisation des langages <a
+                        href="https://fr.wikipedia.org/wiki/HTML5#:~:text=HTML5%20(HyperText%20Markup%20Language%205,de%20DOM%20%3A%20HTML5%20et%20XHTML5.">HTML5</a>,
+                    <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"target="_blank">CSS3</a> et <a
+                        href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a> par le biais de
+                    Visual
+                    studio Code.<br>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://codepen.io/">Codepen</a><br>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://www.w3schools.com/" target="_blank">W3School</a>
+                </u>
+            </p>
+            <p>
+
+                <strong>Images :</strong>
+                <u>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <img src="../images/ordi.gif" alt="gif ordinateur" title="gif ordinateur"></img>
+                    <a href="https://www.beckett.com/search/?term=fleer+chicago+bulls" target="_blank">Beckit</a><br>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://www.youtube.com/" target="_blank">Youtube</a><br>
+                </u>
+            </p>
+            <p>
+                <strong> Textes :</strong>
+                <u>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal"
+                        target="_blank">Wikipédia</a><br>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://www.michael-jordan.fr/" target="_blank">Site sur Michael Jordan</a><br>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://www.allocine.fr/series/ficheserie_gen_cserie=23639.html"
+                        target="_blank">AlloCiné</a><br>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://www.senscritique.com/" target="_blank">Sens Critique</a><br>
+                    <i class="fa-solid fa-basketball fa-bounce"></i>
+                    <a href="https://chicago.suntimes.com/2020/4/15/21220771/last-dance-review-bulls-documentary-michael-jordan-chicago-90s-dynasty"
+                        target="_blank">Chigago Sun Times</a>
+                </u>
+
+
+            </p>
+            <hr>
+        </div>
+        <p>
+            Le produit multimédia ne possède pas de suivi.<br>
+            Renoncement express à toute rémunération pour la réalisation, l'exploitation et l'éventuelle évolution de
+            cette production.<br>
+            Ce site possède une autorisation gracieuse de son exploitation interne par d'autres étudiants et/ou les
+            personnels de l'U.T.T. et les enseignants (permanents ou vacataires).
+        </p>
+    </div>
+
+    <img src="../images/play.png" id="icon">
+    <audio id="mySong">
+        <source src="../sons/chicago-bulls-theme.mp3" type="audio/mp3">
+    </audio>
+
+
+
+    <!--Footer-->
+
+    </main><span class="bloc-audio"></span>
+    <footer>
+        <p style="float:left;">Copyright© <sec> All Rights Reserved To</sec> <a href="mailto:maya.mazuet@utt.fr">Maya
+                Mazuet</a></p>
+        <span class="liens"><a title="Vers la page contact" href="contact.html">Contact</a> - <a
+                title="Vers la page crédits" href="credits.html">Crédits</a></span>
+    </footer>
+    <!--Fin Footer-->
+
+</body>
+<script src="../style/TDL2.js"></script>
+<script src="https://kit.fontawesome.com/e515dcbc47.js" crossorigin="anonymous"></script>
+
+</html>
