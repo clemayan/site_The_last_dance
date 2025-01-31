@@ -1,6 +1,6 @@
 # The Last Dance 🏀
 
-Ce projet a été réalisé dans le cadre du module MM01 à l'Université de Technologie de Troyes (UTT). Il s'agit d'un site vitrine en HTML dédié au documentaire "The Last Dance" qui retrace l'ascension et la carrière légendaire de Michael Jordan et des Chicago Bulls dans les années 1990. Ce projet est une présentation simple et immersive de la série, avec des informations clés, des images et des liens vers des ressources supplémentaires.
+Ce projet a été réalisé en octobre 2023 dans le cadre du module MM01 à l'Université de Technologie de Troyes (UTT). Il s'agit d'un site vitrine en HTML dédié au documentaire "The Last Dance" qui retrace l'ascension et la carrière légendaire de Michael Jordan et des Chicago Bulls dans les années 1990. Ce projet est une présentation simple et immersive de la série, avec des informations clés, des images et des liens vers des ressources supplémentaires.
 
 ## Fonctionnalités 🎯
 Présentation du documentaire "The Last Dance" avec une description complète.
