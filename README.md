@@ -15,3 +15,8 @@ Responsive design : Le site est conçu pour s'adapter à différents appareils (
 
 ## Auteurs 🧑‍💻
 Mazuet Maya
+
+## 📜 Licence  
+Ce projet est protégé par des droits d’auteur. Toute utilisation, modification, reproduction ou distribution sans autorisation est interdite.  
+
+🔗 Consultez le fichier [LICENSE.txt](LICENSE.txt) pour plus de détails.  
