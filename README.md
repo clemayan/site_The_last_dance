@@ -13,7 +13,7 @@ HTML : Structure et contenu du site.
 CSS : Mise en forme et style du site (grilles, typographies, couleurs).
 Responsive design : Le site est conçu pour s'adapter à différents appareils (mobiles, tablettes, ordinateurs de bureau).
 
-## Auteurs 🧑‍💻
+## Auteure 👩‍💻
 Mazuet Maya
 
 ## 📜 Licence  
